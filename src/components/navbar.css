@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: row;
+    margin-top: 15px;
+    padding: 0;
+}
+
+ul :first-child {
+    margin-top: 0px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+  }
+  ul li:nth-child(odd){
+    /* background-color: rgb(176, 176, 131); */
+  /* background-color: aliceblue; */
+  background-color: rgb(170, 172, 173);
+
+
+  }
+  ul li:nth-child(even){
+    /* background-color: rgb(112, 112, 107); */
+  /* background-color: aliceblue; */
+  background-color: rgb(170, 172, 173);
+
+
+  
+  }
+
+  ul li{
+    width: 100px;
+    height: 25px;
+    margin-bottom: 5px;
+   border-radius: 3px;
+  text-decoration: none;
+  background-color: rgb(170, 172, 173);
+  
+  }
+  ul li a{
+    text-decoration: none;
+  }
+  ul li:hover{
+    background-color: rgb(214, 166, 99);
+    font-size: 20px;
+  }

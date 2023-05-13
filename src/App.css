@@ -111,3 +111,10 @@ button{
 .accept{
   font-size: large;
 }
+.active{
+  background-color: rgb(229, 123, 123);
+  color: aliceblue;
+}
+input{
+  margin-left: 10px;
+}
